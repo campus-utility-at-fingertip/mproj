@@ -86,13 +86,16 @@ NavComponent styling
 
 .navbar {
   background-color: white !important;
+  
 }
 .nav_bg {
   background-color: white !important;
+  
 }
 .navbar-brand {
   font-size: 1.9rem !important;
   color: #565387 !important;
+  z-index: 1;
 }
 
 .navbar a {
