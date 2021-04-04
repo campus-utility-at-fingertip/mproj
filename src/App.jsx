@@ -13,6 +13,7 @@ import Transport from './components/Transport';
 import BusRequest from './components/BusRequest';
 import BicycleRequest from './components/BicycleRequest';
 import Maintenance from './components/Maintenance';
+import Login from './NavComponent/Login';
 
 
 const App = () => {
@@ -24,7 +25,8 @@ const App = () => {
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
             <Route path="/service" exact component={Service} />
-            <Route path="/Contact" exact component={Contact} />
+            <Route path="/contact" exact component={Contact} />
+            <Route path="/login" exact component={Login} />
             <Route path="/health"  exact component={Health} />
             <Route path="/transport" exact component={Transport} />
             <Route path="/maintenance" exact component={Maintenance} />

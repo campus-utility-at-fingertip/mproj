@@ -109,6 +109,17 @@ NavComponent styling
 .navbar a:hover {
   color: #3498db !important;
 }
+
+.dropdown_setup {
+  width: 500px;
+  height: 500px;
+  }
+.dropdown-position {
+  margin-top: 60px !important;
+  background: transparent !important;
+  transform: translate(150px, 0px);
+  border: none !important;
+}
 @media (max-width: 991px) {
   .navbar-brand {
     font-size: 1.5rem !important;
